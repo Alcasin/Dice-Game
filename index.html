@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="result">Click the Button</h1>
+      
+      <div class="dice-wrapper">
+        <div class="dice">
+          <p id="player1label">Player 1</p>
+          <img class="img1" src="./images/dice6.png" />
+          <input 
+          type="text" 
+          name="Name of Player 1" 
+          id="player1name" 
+          autocomplete="off"
+          placeholder="Player 1">
+        </div>
+        <!-- autocomplete="off" : To prevent old entries from being visible (Eski girişleri kapatır)-->
+        <div class="dice">
+          <p id="player2label">Player 2</p>
+          <img class="img2" src="./images/dice6.png" />
+           <input 
+          type="text" 
+          name="Name of Player 2" 
+          id="player2name" 
+          autocomplete="off"
+          placeholder="Player 2">
+        </div>
+      </div>
+    </div>
+    <div class="button-wrapper">
+      <button id="rollBtn">🎲 Roll the Dice</button>
+    </div>
+
+    <footer>© 2025 🎲 Alper Kırca 🎲 Dice Game</footer>
+    <script src = "index.js"></script>
+  </body>
+</html>
